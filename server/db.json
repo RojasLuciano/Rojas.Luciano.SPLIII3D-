@@ -1,0 +1,104 @@
+{
+  "anuncios": [
+    {
+      "id": 1626802060021,
+      "titulo": "Venta",
+      "transaccion": "venta",
+      "descripcion": "Chevrolet Corsa",
+      "precio": "20",
+      "kms": "20",
+      "puertas": "4",
+      "potencia": "110"
+    },
+    {
+      "id": 1626872431767,
+      "titulo": "Alquiler",
+      "transaccion": "alquiler",
+      "descripcion": "Chevrolet S10",
+      "precio": "10",
+      "kms": "45000",
+      "puertas": "5",
+      "potencia": "200"
+    },
+    {
+      "id": 1626876326324,
+      "titulo": "MiAutoAlquiler",
+      "transaccion": "venta",
+      "descripcion": " Ford Fiesta",
+      "precio": "150",
+      "kms": "0",
+      "puertas": "6",
+      "potencia": "123"
+    },
+    {
+      "id": 1626886170781,
+      "titulo": "Venta",
+      "transaccion": "venta",
+      "descripcion": "Fiat 600",
+      "precio": "34000",
+      "kms": "78000",
+      "puertas": "2",
+      "potencia": "56"
+    },
+    {
+      "id": 1637638466882,
+      "titulo": "33333",
+      "transaccion": "venta",
+      "descripcion": "3",
+      "precio": "3",
+      "kms": "3",
+      "puertas": "3",
+      "potencia": "3"
+    },
+    {
+      "id": 1637638482377,
+      "titulo": "121212",
+      "transaccion": "venta",
+      "descripcion": "121212",
+      "precio": "1",
+      "kms": "1",
+      "puertas": "1",
+      "potencia": "1"
+    },
+    {
+      "id": 1637638518430,
+      "titulo": "11",
+      "transaccion": "alquiler",
+      "descripcion": "11",
+      "precio": "11",
+      "kms": "1",
+      "puertas": "11",
+      "potencia": "1"
+    },
+    {
+      "id": 1637639167266,
+      "titulo": "1",
+      "transaccion": "venta",
+      "descripcion": "1",
+      "precio": "1",
+      "kms": "1",
+      "puertas": "1",
+      "potencia": "1"
+    },
+    {
+      "id": 1637639711315,
+      "titulo": "2",
+      "transaccion": "venta",
+      "descripcion": "2",
+      "precio": "2",
+      "kms": "2",
+      "puertas": "2",
+      "potencia": "2"
+    },
+    {
+      "id": 1637708240821,
+      "titulo": "titulo",
+      "transaccion": "venta",
+      "descripcion": "desc",
+      "precio": "1212",
+      "kms": "1",
+      "puertas": "1",
+      "potencia": "1"
+    }
+  ]
+}
