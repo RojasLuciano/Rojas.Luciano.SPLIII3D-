@@ -71,9 +71,8 @@ function handleCheck(e) {
 
 function handlerClick(e) {
 	if (e.target.matches("td")) {
-		//console.log(e.target.parentNode.dataset.id); // el id lo recupero asi porque lo meti en data-id,
 		let id = e.target.parentNode.dataset.id;
-		const anuncio = anuncios.filter((p) => p.id === parseInt(id))[0]; //filter devuelve un array de las coincidencias, entonces le paso la pos 0
+		const anuncio = anuncios.filter((p) => p.id === parseInt(id))[0]; 
 		cargarFormulario(
 			frm,
 			id,
@@ -84,7 +83,7 @@ function handlerClick(e) {
 			anuncio.puertas,
 			anuncio.kms,
 			anuncio.potencia
-		); //cargo el formulario con los datos de la tabla
+		);
 		modificarFuncionBoton(e.target);
 	} else if (!e.target.matches("input")) {
 		modificarFuncionBoton(e.target);
@@ -235,7 +234,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	btnModificar.addEventListener("click", handlreModificarAnuncio);
 	btnEliminar.addEventListener("click", handlreEliminarAnuncio);
 	btnCancelar.addEventListener("click", handlerCancelar);
-	document.addEventListener("click", handlerClick); // le agreggo el evento click al documento
+	document.addEventListener("click", handlerClick); 
 	cmbTrsns.addEventListener("change", handlerFiltro);
 	checkBox.forEach((element) => element.addEventListener("click", handleCheck));
 });
